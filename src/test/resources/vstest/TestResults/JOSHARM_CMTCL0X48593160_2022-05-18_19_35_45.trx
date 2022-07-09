@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="51bc37f2-26de-4df9-99ae-e3e638ada183" name="JOSHARM@CMTCL0X48593160 2022-05-18 19:35:45" runUser="EMEA\JOSHARM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-05-18T19:35:45.4390955+02:00" queuing="2022-05-18T19:35:45.4390958+02:00" start="2022-05-18T19:35:42.7783576+02:00" finish="2022-05-18T19:35:45.4952777+02:00" />
+  <TestSettings name="default" id="99b79e88-1d3d-433e-b138-30e1406274ae">
+    <Deployment runDeploymentRoot="JOSHARM_CMTCL0X48593160_2022-05-18_19_35_45" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="3f7003eb-753f-4d57-804a-470dd685bd9f" testId="4b685603-b70d-754a-951d-f521afa8d08d" testName="Test1" computerName="CMTCL0X48593160" duration="00:00:00.1824369" startTime="2022-05-18T19:35:44.8940508+02:00" endTime="2022-05-18T19:35:45.0764059+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f7003eb-753f-4d57-804a-470dd685bd9f">
+      <Output>
+        <ErrorInfo>
+          <Message>  Expected: True&#xD;
+  But was:  False&#xD;
+</Message>
+          <StackTrace>   at vstest.Tests.Test1() in C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\UnitTest1.cs:line 15&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Test1" storage="c:\projects\xrp_test\violations-lib\src\test\resources\vstest\bin\debug\net6.0\vstest.dll" id="4b685603-b70d-754a-951d-f521afa8d08d">
+      <Execution id="3f7003eb-753f-4d57-804a-470dd685bd9f" />
+      <TestMethod codeBase="C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\bin\Debug\net6.0\vstest.dll" adapterTypeName="executor://nunit3testexecutor/" className="vstest.Tests" name="Test1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="4b685603-b70d-754a-951d-f521afa8d08d" executionId="3f7003eb-753f-4d57-804a-470dd685bd9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Ergebnisse nicht in einer Liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" passed="0" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.0.0.0: Test execution started&#xD;
+Running all tests in C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\bin\Debug\net6.0\vstest.dll&#xD;
+   NUnit3TestExecutor discovered 1 of 1 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.0.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

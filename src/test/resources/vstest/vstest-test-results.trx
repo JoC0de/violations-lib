@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="433e3a87-38f3-4da4-869a-304d20b311c8" name="USER@PC 2022-05-18 20:59:05" runUser="USER" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-05-18T20:59:05.5410136+02:00" queuing="2022-05-18T20:59:05.5410140+02:00" start="2022-05-18T20:59:02.8796882+02:00" finish="2022-05-18T20:59:05.6096855+02:00" />
+  <TestSettings name="default" id="d70a4ba1-6e4d-4461-b33a-2f339bf1aa3c">
+    <Deployment runDeploymentRoot="USER_PC_2022-05-18_20_59_05" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="c8e18572-bf9a-4625-b4ab-471cc8ce2f07" testId="b9efc0ac-c409-1af2-3379-3c35268b4f5b" testName="SupClassTest(2)" computerName="PC" duration="00:00:00.1785870" startTime="2022-05-18T20:59:05.0531464+02:00" endTime="2022-05-18T20:59:05.2317326+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8e18572-bf9a-4625-b4ab-471cc8ce2f07">
+      <Output>
+        <ErrorInfo>
+          <Message>  Expected: 1&#xD;
+  But was:  2&#xD;
+</Message>
+          <StackTrace>   at vstest.Tests.SupClass.Other(Int32 testData) in C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\UnitTest1.cs:line 48&#xD;
+   at vstest.Tests.SupClass.Method(Int32 testData) in C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\UnitTest1.cs:line 43&#xD;
+   at vstest.Tests.SupClassTest(Int32 testData) in C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\UnitTest1.cs:line 36&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b9dc10dd-ced4-480a-89e5-559430798811" testId="68e607c2-ce88-32e3-1709-942256ebd6bf" testName="SupClassTest(1)" computerName="PC" duration="00:00:00.0109380" startTime="2022-05-18T20:59:05.0403356+02:00" endTime="2022-05-18T20:59:05.0511933+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9dc10dd-ced4-480a-89e5-559430798811" />
+    <UnitTestResult executionId="2dbfd07b-d212-4e2d-99cf-2822cd49e380" testId="36da6455-1522-850a-c2e8-f9ef5a3d6d64" testName="Test3" computerName="PC" duration="00:00:00.0012539" startTime="2022-05-18T20:59:05.2411122+02:00" endTime="2022-05-18T20:59:05.2423659+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2dbfd07b-d212-4e2d-99cf-2822cd49e380">
+      <Output>
+        <StdOut>Console-output message</StdOut>
+        <ErrorInfo>
+          <StackTrace>   at vstest.Tests.Test3() in C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\UnitTest1.cs:line 29&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ccdcb3f7-87f5-408d-b67f-fa5cc106ca97" testId="053caf23-7dab-a6d1-3682-1eb4a024d936" testName="Test2" computerName="PC" duration="00:00:00.0031600" startTime="2022-05-18T20:59:05.2379054+02:00" endTime="2022-05-18T20:59:05.2410648+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ccdcb3f7-87f5-408d-b67f-fa5cc106ca97">
+      <Output>
+        <ErrorInfo>
+          <Message>System.InvalidOperationException : Test-exception</Message>
+          <StackTrace>   at vstest.Tests.Test2() in C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\UnitTest1.cs:line 22</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="24e35eae-338b-4496-840c-1c1c39ca95ec" testId="4b685603-b70d-754a-951d-f521afa8d08d" testName="Test1" computerName="PC" duration="00:00:00.0013140" startTime="2022-05-18T20:59:05.2365672+02:00" endTime="2022-05-18T20:59:05.2378810+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24e35eae-338b-4496-840c-1c1c39ca95ec">
+      <Output>
+        <ErrorInfo>
+          <Message>  Expected: 1&#xD;
+  But was:  3&#xD;
+</Message>
+          <StackTrace>at Telerik.JustMock.Expectations.NonPublicExpectation.&#x1C;?&#x2;(Type ?&#x8;, Type ?&#x8;&#x2;,
+                        String &#x12;&#x6;&#x2;, Object[] ?&#x6;)
+                        at Telerik.JustMock.Expectations.NonPublicExpectation.? &#x2;.? &#x2;()
+                        at ??&#x2;.??&#x2;.??&#x2;[?&#x4;](Func`1 ??&#x2;)
+                        at Telerik.JustMock.Expectations.NonPublicExpectation.Arrange[TReturn](Type targetType, String
+                        memberName, Object[] args)
+                        at Common.Settings.Test.Status.Bb_StatusTest.Bb_GetLimitFixed_UserIsLoggedIn_Null() in
+                        c:\jenkins\workspace\dev\Common\Common.Settings.Test\BlackBox\UserStatus\Bb_UserStatus_GetLimitFixedTest.cs:line
+                        32
+                        éàèù
+                    </StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0e5b2add-4680-4b92-b3c3-2759f5e6aafa" testId="2c611587-8360-b9a0-2748-569ae8db65aa" testName="TestValid" computerName="PC" duration="00:00:00.0009110" startTime="2022-05-18T20:59:05.2423845+02:00" endTime="2022-05-18T20:59:05.2432948+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e5b2add-4680-4b92-b3c3-2759f5e6aafa">
+      <Output>
+        <StdOut>Test is valid.</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="SupClassTest(2)" storage="c:\projects\xrp_test\violations-lib\src\test\resources\vstest\bin\debug\net6.0\vstest.dll" id="b9efc0ac-c409-1af2-3379-3c35268b4f5b">
+      <Execution id="c8e18572-bf9a-4625-b4ab-471cc8ce2f07" />
+      <TestMethod codeBase="C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\bin\Debug\net6.0\vstest.dll" adapterTypeName="executor://nunit3testexecutor/" className="vstest.Tests" name="SupClassTest(2)" />
+    </UnitTest>
+    <UnitTest name="Test1" storage="c:\projects\xrp_test\violations-lib\src\test\resources\vstest\bin\debug\net6.0\vstest.dll" id="4b685603-b70d-754a-951d-f521afa8d08d">
+      <Execution id="24e35eae-338b-4496-840c-1c1c39ca95ec" />
+      <TestMethod codeBase="C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\bin\Debug\net6.0\vstest.dll" adapterTypeName="executor://nunit3testexecutor/" className="vstest.Tests" name="Test1" />
+    </UnitTest>
+    <UnitTest name="Test3" storage="c:\projects\xrp_test\violations-lib\src\test\resources\vstest\bin\debug\net6.0\vstest.dll" id="36da6455-1522-850a-c2e8-f9ef5a3d6d64">
+      <Execution id="2dbfd07b-d212-4e2d-99cf-2822cd49e380" />
+      <TestMethod codeBase="C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\bin\Debug\net6.0\vstest.dll" adapterTypeName="executor://nunit3testexecutor/" className="vstest.Tests" name="Test3" />
+    </UnitTest>
+    <UnitTest name="TestValid" storage="c:\projects\xrp_test\violations-lib\src\test\resources\vstest\bin\debug\net6.0\vstest.dll" id="2c611587-8360-b9a0-2748-569ae8db65aa">
+      <Execution id="0e5b2add-4680-4b92-b3c3-2759f5e6aafa" />
+      <TestMethod codeBase="C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\bin\Debug\net6.0\vstest.dll" adapterTypeName="executor://nunit3testexecutor/" className="vstest.Tests" name="TestValid" />
+    </UnitTest>
+    <UnitTest name="Test2" storage="c:\projects\xrp_test\violations-lib\src\test\resources\vstest\bin\debug\net6.0\vstest.dll" id="053caf23-7dab-a6d1-3682-1eb4a024d936">
+      <Execution id="ccdcb3f7-87f5-408d-b67f-fa5cc106ca97" />
+      <TestMethod codeBase="C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\bin\Debug\net6.0\vstest.dll" adapterTypeName="executor://nunit3testexecutor/" className="vstest.Tests" name="Test2" />
+    </UnitTest>
+    <UnitTest name="SupClassTest(1)" storage="c:\projects\xrp_test\violations-lib\src\test\resources\vstest\bin\debug\net6.0\vstest.dll" id="68e607c2-ce88-32e3-1709-942256ebd6bf">
+      <Execution id="b9dc10dd-ced4-480a-89e5-559430798811" />
+      <TestMethod codeBase="C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\bin\Debug\net6.0\vstest.dll" adapterTypeName="executor://nunit3testexecutor/" className="vstest.Tests" name="SupClassTest(1)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="b9efc0ac-c409-1af2-3379-3c35268b4f5b" executionId="c8e18572-bf9a-4625-b4ab-471cc8ce2f07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68e607c2-ce88-32e3-1709-942256ebd6bf" executionId="b9dc10dd-ced4-480a-89e5-559430798811" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36da6455-1522-850a-c2e8-f9ef5a3d6d64" executionId="2dbfd07b-d212-4e2d-99cf-2822cd49e380" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="053caf23-7dab-a6d1-3682-1eb4a024d936" executionId="ccdcb3f7-87f5-408d-b67f-fa5cc106ca97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b685603-b70d-754a-951d-f521afa8d08d" executionId="24e35eae-338b-4496-840c-1c1c39ca95ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c611587-8360-b9a0-2748-569ae8db65aa" executionId="0e5b2add-4680-4b92-b3c3-2759f5e6aafa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="2" failed="4" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.0.0.0: Test execution started&#xD;
+Running all tests in C:\Projects\xrp_test\violations-lib\src\test\resources\vstest\bin\Debug\net6.0\vstest.dll&#xD;
+   NUnit3TestExecutor discovered 6 of 6 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+Console-output message&#xD;
+&#xD;
+TestValid: Test is valid.&#xD;
+NUnit Adapter 4.0.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

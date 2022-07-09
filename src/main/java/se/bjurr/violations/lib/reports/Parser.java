@@ -55,6 +55,7 @@ import se.bjurr.violations.lib.parsers.XMLLintParser;
 import se.bjurr.violations.lib.parsers.XUnitParser;
 import se.bjurr.violations.lib.parsers.YAMLlintParser;
 import se.bjurr.violations.lib.parsers.ZPTLintParser;
+import se.bjurr.violations.lib.parsers.VsTestParser;
 
 public enum Parser {
   ANDROIDLINT(new AndroidLintParser()), //
@@ -105,7 +106,8 @@ public enum Parser {
   PCLINT(new PCLintParser()), //
   CODECLIMATE(new CodeClimateParser()), //
   XUNIT(new XUnitParser()), //
-  VALGRIND(new ValgrindParser());
+  VALGRIND(new ValgrindParser()), //
+  VSTEST(new VsTestParser());
 
   private transient ViolationsParser violationsParser;
 
